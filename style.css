@@ -14,7 +14,7 @@ body {
     line-height: 1.7;
     min-height: 100vh;
 
-    /* 🖥️ DARK SERVER ROOM BACKGROUND */
+    /* DARK SERVER ROOM BACKGROUND */
     background-image: url('bg.jpg');
     background-size: cover;
     background-position: center center;
@@ -201,7 +201,7 @@ nav ul a:hover {
     background: rgba(30, 30, 60, 0.5);
 }
 
-// ---------- CARDS ---------- //
+/*---------- CARDS ----------*/
 .card {
     max-width: 800px;
     margin: 18px auto;
@@ -234,7 +234,7 @@ nav ul a:hover {
     color: #dcdcff;
 }
 
-// ---------- SKILLS ---------- //
+/*---------- SKILLS ----------*/
 .skills {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -263,7 +263,7 @@ nav ul a:hover {
     color: #fff;
 }
 
-// ---------- CONTACT ---------- //
+/*---------- CONTACT ----------*/
 #contact p {
     background: rgba(40, 35, 80, 0.65);
     padding: 8px 20px;
@@ -275,7 +275,7 @@ nav ul a:hover {
     color: #f0f0ff;
 }
 
-// ---------- FOOTER ---------- //
+/*---------- FOOTER ----------*/
 footer {
     background: rgba(8, 10, 25, 0.92);
     backdrop-filter: blur(10px);
@@ -286,11 +286,11 @@ footer {
     margin-top: 40px;
 }
 
-// ---------- RESPONSIVE ---------- //
+/*---------- RESPONSIVE ---------- */
 @media (max-width: 750px) {
     .navbar {
         flex-direction: column;
-    }
+ }
 
     nav ul {
         flex-wrap: wrap;
@@ -338,7 +338,7 @@ footer {
     }
 }
 
-// ---------- SCROLLBAR ---------- //
+*/---------- SCROLLBAR ---------- */
 ::-webkit-scrollbar {
     width: 10px;
 }
